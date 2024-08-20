@@ -10,7 +10,7 @@ const CountdownTimer = () => {
     });
 
     useEffect(() => {
-        const countdownTime = 65 * 24 * 60 * 60 + 6 * 60 * 60 + 4 * 60 + 30; // Initialize with a duration in seconds
+        const countdownTime = 61 * 24 * 60 * 60 + 20 * 60 * 60 + 56 * 60 + 5; // Initialize with a duration in seconds
         let timer = countdownTime;
 
         const interval = setInterval(() => {
